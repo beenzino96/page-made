@@ -1,0 +1,35 @@
+CMD 는 언제나 관리자 파일
+마리아DB다운후 파일로 주소 변경후 가능
+
+MARIADB mySQL상위 버전 쉽게 sql명령어를 사용 할수 있다
+하지만 일일이 수정하기에는 불편하니 GUI환경에서도 사용 가능한 mysql workbatch를 사용해 보자
+
+워크베치 들어가서 스키마 새로만들고 준비 단계
+**아래는 오류시 변경사항이다
+Microsoft Windows [Version 10.0.22631.3737]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Windows\System32>my sql -v
+'my'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+배치 파일이 아닙니다.
+
+----------------------------------------------
+C:\Windows\System32>cd C:\Program Files\MariaDB 11.4\bin
+
+C:\Program Files\MariaDB 11.4\bin>mysql -V
+mysql from 11.4.2-MariaDB, client 15.2 for Win64 (AMD64), source revision 3fca5ed772fb75e3e57c507edef2985f8eba5b12
+
+C:\Program Files\MariaDB 11.4\bin>mariadb -u root -p
+Enter password: ****
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 3
+Server version: 11.4.2-MariaDB mariadb.org binary distribution
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [(none)]> show databases
+    ->
+
+
